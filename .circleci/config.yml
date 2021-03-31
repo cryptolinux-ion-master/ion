@@ -73,7 +73,7 @@ jobs:
             python3 setup.py install
             cd -
             test/functional/test_runner.py
-    x86_64_focal:
+  x86_64_focal:
     docker:
       - image: circleci/buildpack-deps:20.04
         user: root
